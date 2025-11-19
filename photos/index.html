@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>照片 | Jason Schmit</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.7;
+    }
+    a { text-decoration: none; color: #0077cc; }
+    a:hover { text-decoration: underline; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .grid img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>照片</h1>
+  <p>一些我想留在这里的画面。</p>
+  <p><a href="../">返回首页</a></p>
+
+  <div class="grid">
+    <!-- 之后你可以把 src 换成你自己的图片地址 -->
+    <!-- <img src="https://..." alt="示例照片 1" /> -->
+    <!-- <img src="https://..." alt="示例照片 2" /> -->
+  </div>
+</body>
+</html>
